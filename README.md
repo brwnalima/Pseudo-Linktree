@@ -10,4 +10,14 @@ Interface de um [Linktree](https://linktr.ee/s/join-linktree-pro-for-free-ga/?&u
 $ git clone https://github.com/brwnalima/Pseudo-Linktree
 ```
 
+## 📌 Ferramentas utilizadas:
 
+<div style="display: inline_block" align = "left"><br>
+
+  <img align="center" alt="Bruna-Git" height="40" width="40" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
+  <img align="center" alt="Bruna-GitHub" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+  <img align="center" alt="Bruna-HTML" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" />
+  <img align="center" alt="Bruna-CSS" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" />
+  <img align="center" alt="Bruna VsCode " height="40" width="40" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" />
+
+  </div>
