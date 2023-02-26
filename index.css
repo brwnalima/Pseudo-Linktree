@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    
+    background: linear-gradient(0deg, #ef2dfd 0%,  #6022c3 100%);
+    background-attachment: fixed; 
+}
+
+.content {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.icon {
+    margin: auto;
+    border-radius: 50%;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 7px 15px -6px rgba(0, 0, 0, 0.378);
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.links {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-item {
+    margin: 1%;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.links-item:hover {
+    color: #ef2dfd;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 19px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linktree-icon {
+    width: 14px;
+    padding-left: 5px;
+}
