@@ -5,11 +5,17 @@
     padding: 0;
 }
 
+:root {
+    --color-dark: black;
+    ---color-light: white;
+    --color-shadow: #0000009d;
+}
+
 html {
 
-    background-image: url("https://preview.redd.it/desktop-aesthetic-wallpaper-1920-1080-v0-d2hd73xxwvaa1.jpg?auto=webp&s=04ca7dae27f9c74b35d8df235f5955dc794df29c");
-    background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/ce/84/ae/ce84ae1d617e25c584d6ec68aa90e6e9.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
@@ -29,19 +35,21 @@ html {
     width: 120px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 7px 15px -6px rgba(0, 0, 0, 0.378);
+    box-shadow: 0px 7px 15px -6px var(--color-shadow);
 }
 
 .title {
     font-size: 25px;
     font-weight: 500px;
     text-align: center;
+    text-shadow: 1px 1px 2px var(--color-dark);
 }
 
 span {
     text-align: center;
     font-size: 13px;
     padding: 2px;
+    text-shadow: 1px 1px 2px var(--color-dark);
 }
 
 .links {
@@ -57,20 +65,21 @@ span {
     margin: 1%;
     width: 50%;
     padding: 20px;
-    border: 1px solid white;
     border-radius: 30px;
     text-align: center;
     text-decoration: none;
-    color: white;
+    background-color: var(---color-light);
+    color: var(--color-dark);
 }
 
 .links-past:hover {
-    background-color: white;
+    background-color: var(---color-light);
+    border: 1px solid var(---color-light);
     cursor: pointer;
     transition: 0.3s ease-in-out;
     font-size: 19px;
-    box-shadow: 0px 7px 15px -6px rgba(0, 0, 0, 0.173);
-    color: #ef2dfd;
+    box-shadow: 0px 7px 15px -6px var(--color-shadow);
+    color: var(--color-dark);
 }
 
 .footer-content {
