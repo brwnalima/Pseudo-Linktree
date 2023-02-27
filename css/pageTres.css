@@ -13,7 +13,7 @@
 
 html {
 
-    background-image: url("https://www.teahub.io/photos/full/11-111194_cyberpunk-pixel-art-gif.gif");
+    background-image: url("https://wallpaperaccess.com/full/2435550.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -32,24 +32,26 @@ html {
 .icon {
     margin: auto;
     border-radius: 50%;
-    width: 120px;
+    width: 160px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 7px 15px -6px var(--color-shadow);
+   /*  box-shadow: 0px 7px 15px -6px var(--color-shadow);*/
 }
 
 .title {
     font-size: 25px;
-    font-weight: 500px;
+    font-weight: bolder;
     text-align: center;
-    text-shadow: 1px 1px 2px var(--color-dark);
+    text-decoration: 1px 2px 2px solid;
+    text-shadow: 1px 2px 2px var(--color-dark);
 }
 
 span {
     text-align: center;
     font-size: 13px;
     padding: 2px;
-    text-shadow: 1px 1px 2px var(--color-dark);
+    color: black;
+    font-weight: bold;
 }
 
 .links {
@@ -65,8 +67,8 @@ span {
     margin: 1%;
     width: 50%;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 6px 6px 1px 0px gray;
+    border-radius: 7px;
+    box-shadow: 6px 6px 1px 0px rgb(138, 80, 128);
     text-align: center;
     text-decoration: none;
     background-color: #fdfbfb;
@@ -74,12 +76,10 @@ span {
 }
 
 .links-past:hover {
-    background-color: var(---color-light);
-    border: 1px solid var(---color-light);
+    box-shadow: 6px 6px 1px 0px rgb(138, 80, 128);
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    font-size: 19px;
-    box-shadow: 6px 6px 1px 0px gray;
+    font-size: 18px;
     color: var(--color-dark);
 }
 
